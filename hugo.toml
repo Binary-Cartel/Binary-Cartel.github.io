@@ -7,7 +7,6 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-publishdir = "docs/"
 
 [Params]
   homeTitle = "binarycartel" # Set a different text for the header on the home page
