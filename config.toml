@@ -1,0 +1,106 @@
+baseURL = "https://stabby.binarycartel.com/"
+languageCode = "en-us"
+title = "Binary Cartel"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#publishdir = "docs/"
+#googleAnalytics = "G-335JLZVL9V"
+
+[Params]
+#homeTitle = "daylightbasementstudio # Set a different text for the header on the home page
+subtitle = "Game development studio working on our first title: "
+mainSections = ["post","posts"]
+#logo = "smallbrand.png" # Expecting square dimensions
+brand = "brand.png"
+favicon = "img/army.png"
+dateFormat = "January 2, 2006"
+commit = false
+rss = true
+useHLJS = true
+socialShare = false
+delayDisqus = true
+showRelatedPosts = true
+
+[[Params.bigimg]]
+src = "img/avatar.jpg"
+desc = "Binary Blob"
+
+
+[Author]
+author.name = "binarycartel"
+github = "binary-cartel"
+#itchio = "daylightbasementstudio"
+#steam = "1928030"
+#discord = "5RmvYfN"
+#youtube = "channel/UCzTDyrptoPeAI7PSxHWb-Kg"
+#subreddit = "rightfullybearyarms"
+twitter = "binarycartel"
+#press = "https://press.daylightbasementstudio.com"
+email = "binarycartel@gmail.com"
+
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+url = "/blog"
+weight = 1
+
+[[menu.main]]
+identifier = "games"
+name = "games"
+url = "/games/stabbyknight/"
+weight = 2
+
+[[menu.main]]
+identifier = "rba"
+parent = "games"
+name = "stabby knight"
+url = "/games/stabbyknight/"
+weight = 1
+
+[[menu.main]]
+identifier = "presskit"
+name = "Press Kit"
+#url = "https://press.daylightbasementstudio.com"
+weight = 4
+
+[[menu.main]]
+identifier = "stabbyPress"
+parent = "presskit"
+name = "stabby knight"
+#url = "https://press.rbagame.com"
+weight = 1
+
+[[menu.main]]
+identifier = "binaryPress"
+parent = "presskit"
+name = "Binary cartel Studio"
+#url = "https://press.daylightbasementstudio.com"
+weight = 2
+
+#[[menu.main]]
+#  identifier = "patchnotes"
+#  name = "Patch Notes"
+#  url = "/patch"
+#  weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 4
+
+#[[menu.main]]
+#identifier = "socials"
+#name = "socials"
+#url = "https://linktr.ee/daylightbasementstudio"
+#weight = 5
+#
+#[[menu.main]]
+#identifier = "merch"
+#name = "merch"
+#url = "https://daylightbasementstudio.square.site"
+#weight = 6
